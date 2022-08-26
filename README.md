@@ -50,13 +50,13 @@ Open Terminal in the directory "SAAS"
 
 ### For Sql Server
 Update your connection string to use Sql Server.
-See [# Setting up development environment](#Setting%20up%20development%20environment) to configure connection string.
+See [# Setting up development environment](#setting-up-development-environment) to configure connection string.
 ```
 dotnet ef migrations add "<migration-name>" -s "SAAS.Web" -p "SAAS.Infrastructure.SqlServer" -- --dbProvider SqlServer
 ```
 ### For Post Gre Sql
 Update your connection string to use Post Gre Sql.
-See [# Setting up development environment](#Setting%20up%20development%20environment) to configure connection string.
+See [# Setting up development environment](#setting-up-development-environment) to configure connection string.
 ```
 dotnet ef migrations add "<migration-name>" -s "SAAS.Web" -p "SAAS.Infrastructure.PostGreSql" -- --dbProvider PostGreSql
 ```
